@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(192, 192, 192);
+    width: 100%;
+    margin: 0;
+}
+
+h2{ 
+        font-family: "Pixelify Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+
+ }
+
+.cajaheader{
+    display: flex;
+    width: auto;
+    height: 50px;
+    background-color:rgba(255, 255, 255, 0.699);
+    top:0;
+    margin: 1;
+}
+.barradebusquedacaja{
+    position: absolute;
+    width: 340px;
+    margin-left: 700px;
+}
+.barradebusqueda{
+    position: relative;
+    width: 300px;
+    height: 20px;
+    border: 3px solid rgba(137, 137, 137, 0.566);
+    margin-top: 12px;
+    border-radius: 7px;
+
+}
+#iconolupa{
+    position: absolute;
+            top: 65%;
+            right: 38px;
+            transform: translateY(-50%);
+            font-size: 16   px;
+            color: #aaa;
+            pointer-events: none;
+}
+
+.cajalogoheader{
+    position:absolute;
+    margin-left: 10px;
+}
+.cajamenuheader{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.product-container {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    margin-left: 100px;
+    margin-top: 90px;
+    overflow: auto;
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+li div.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    height: 300px;
+    width: 175px;
+}
+li div.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+li div.product-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+li div.product-price {
+    color: #090;
+    font-weight: bold;
+}
+.formulario{
+    margin-top: 12%;
+    margin-right: 2%;
+    text-align: center;
+    justify-content: center;
+    position: fixed;    
+    color: #404040;
+    width: 25%;
+    height: 30%;
+    right: 0;
+    border: 3px solid rgb(132, 133, 136) ;
+    border-radius: 20px;
+    background-color: rgb(148, 148, 150);
+    padding-bottom: 1%;
+    background-image: url("https://media4.giphy.com/media/LV8dLJ1YLxdNvSKSFa/giphy.gif?cid=6c09b952lbbrknj5tan4tf9j5r2t0o85q6xpk8u9rbav6y7p&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g");
+    background-size: 120%;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.699);
+    width: 100%;
+    height: 80px;
+    position:absolute;
+    bottom:0;
+    margin:0;
+    text-align: center;
+}
+
